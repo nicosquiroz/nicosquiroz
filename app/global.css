@@ -19,12 +19,14 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --sh-class: #4c97f8;
-    --sh-identifier: white;
+    --sh-identifier: black;
     --sh-keyword: #f47067;
     --sh-string: #0fa295;
   }
   html {
-    color-scheme: dark;
+    color-scheme: light;
+    background-color: #EDEDED;
+    color: black;
   }
 }
 
@@ -51,7 +53,7 @@ html {
 }
 
 .prose .anchor:after {
-  @apply text-neutral-300 dark:text-neutral-700;
+  @apply text-neutral-300 dark:text-neutral-600;
   content: '#';
 }
 
@@ -60,7 +62,7 @@ html {
 }
 
 .prose pre {
-  @apply bg-neutral-50 dark:bg-neutral-900 rounded-lg overflow-x-auto border border-neutral-200 dark:border-neutral-900 py-2 px-3 text-sm;
+  @apply bg-neutral-50 rounded-lg overflow-x-auto border border-neutral-200 py-2 px-3 text-sm;
 }
 
 .prose code {
@@ -83,23 +85,23 @@ html {
 }
 
 .prose p {
-  @apply my-4 text-neutral-800 dark:text-neutral-200;
+  @apply my-4 text-sm text-neutral-800 dark:text-neutral-800;
 }
 
 .prose h1 {
-  @apply text-4xl font-medium tracking-tight mt-6 mb-2;
+  @apply text-3xl font-medium tracking-tight mt-6 mb-2;
 }
 
 .prose h2 {
-  @apply text-xl font-medium tracking-tight mt-6 mb-2;
+  @apply text-lg font-medium tracking-tight mt-6 mb-2;
 }
 
 .prose h3 {
-  @apply text-xl font-medium tracking-tight mt-6 mb-2;
+  @apply text-lg font-medium tracking-tight mt-6 mb-2;
 }
 
 .prose h4 {
-  @apply text-lg font-medium tracking-tight mt-6 mb-2;
+  @apply text-base font-medium tracking-tight mt-6 mb-2;
 }
 
 .prose strong {
@@ -146,4 +148,28 @@ table {
 
 .title {
   text-wrap: balance;
+}
+
+.text-neutral-600.dark:text-neutral-400 {
+  @apply dark:text-neutral-600;
+}
+
+.prose {
+  @apply dark:text-neutral-800;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4 {
+  @apply dark:text-neutral-800;
+}
+
+.prose strong {
+  @apply font-medium dark:text-neutral-800;
+}
+
+.prose ul, .prose ol {
+  @apply dark:text-neutral-800;
+}
+
+.prose code {
+  @apply dark:text-neutral-800;
 }

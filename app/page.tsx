@@ -3,10 +3,10 @@ import { BlogPosts } from 'app/components/posts'
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        INNERTWIST
+      <h1 className="mb-8 text-xl font-semibold tracking-tighter dark:text-neutral-800">
+        Nicolás S. Quiroz
       </h1>
-      <p className="mb-4">
+      <p className="mb-4 text-sm dark:text-neutral-800">
         {'Explicar qué es innertwist, quiénes somos y qué publicamos aquí. Trabajos terminados? O procesos de aprendizaje?'}
         {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
         Vim's keystroke commands and tabs' flexibility for personal viewing
@@ -14,7 +14,7 @@ export default function Page() {
         early error detection ensures cleaner code, and my preference for dark
         mode, which eases long coding sessions by reducing eye strain.`}
       </p>
-      <div className="my-8">
+      <div className="my-8 text-sm dark:text-neutral-800">
         <BlogPosts />
       </div>
     </section>
