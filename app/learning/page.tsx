@@ -1,5 +1,5 @@
 import { BlogPosts } from 'app/components/posts'
-
+import Newsletter from 'app/components/Newsletter'
 export const metadata = {
   title: 'Blog',
   description: 'Read my blog.',
@@ -19,6 +19,7 @@ export default function Page() {
       </p>
       <br></br>
       <BlogPosts />
+      <Newsletter />
     </section>
   )
 }
