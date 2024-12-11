@@ -32,13 +32,35 @@ export default function Footer() {
         </li> */}
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:text-neutral-800 dark:hover:text-neutral-600"
+            className="flex items-center text-sm transition-all hover:text-neutral-800 dark:text-neutral-800 dark:hover:text-neutral-600"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://instagram.com/innertwistt"
+            href="https://instagram.com/nicosquiroz"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">instagram</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center text-sm transition-all hover:text-neutral-800 dark:text-neutral-800 dark:hover:text-neutral-600"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://linkedin.com/in/nicosquiroz"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">linkedin</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center text-sm transition-all hover:text-neutral-800 dark:text-neutral-800 dark:hover:text-neutral-600"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://threads.net/nicosquiroz"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">threads</p>
           </a>
         </li>
         {/* <li>
@@ -53,9 +75,33 @@ export default function Footer() {
           </a>
         </li> */}
       </ul>
-      <p className="mt-8 text-neutral-600 dark:text-neutral-800">
+      {/* <p className="mt-8 text-neutral-600 dark:text-neutral-800">
         © {new Date().getFullYear()} innertwist project
-      </p>
+      </p> */}
+      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-800">
+      <li>
+          <a
+            className="flex dark:text-orange-600 items-center text-sm transition-all hover:text-neutral-800 dark:text-neutral-800 dark:hover:text-neutral-600"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://instagram.com/madness.biz"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">madness.biz</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex dark:text-orange-600 items-center text-sm transition-all hover:text-neutral-800 dark:text-neutral-800 dark:hover:text-neutral-600"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://innertwist.com"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">innertwist.com</p>
+          </a>
+        </li>
+      </ul>
     </footer>
   )
 }

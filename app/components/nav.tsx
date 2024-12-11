@@ -2,10 +2,16 @@ import Link from 'next/link'
 
 const navItems = {
   '/': {
-    name: 'Nicolás S. Quiroz',
+    name: 'index',
   },
-  '/blog': {
-    name: 'escritos',
+  '/process': {
+    name: 'process',
+  },
+  '/learning': {
+    name: 'learning',
+  },
+  '/projects': {
+    name: 'projects',
   }
   // ,
   // 'hhi': {
