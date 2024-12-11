@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import { highlight } from 'sugar-high'
 import React from 'react'
+import { HoverVideo } from './hovervideo'
 
 function Table({ data }) {
   let headers = data.headers.map((header, index) => (
@@ -102,6 +103,7 @@ let components = {
   Table,
   InlineMath,
   BlockMath,
+  HoverVideo
 }
 
 export function CustomMDX(props) {
