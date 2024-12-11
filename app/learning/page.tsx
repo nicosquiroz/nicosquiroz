@@ -18,7 +18,7 @@ export default function Page() {
         destined to be lost forever. Who knows.
       </p>
       <br></br>
-      <BlogPosts className="text-sm" />
+      <BlogPosts />
     </section>
   )
 }
