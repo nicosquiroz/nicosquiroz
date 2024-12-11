@@ -1,14 +1,4 @@
 {
-  "/og/route": "app/og/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/robots.txt/route": "app/robots.txt/route.js",
   "/page": "app/page.js",
-  "/rss/route": "app/rss/route.js",
-  "/learning/page": "app/learning/page.js",
-  "/process/[slug]/page": "app/process/[slug]/page.js",
-  "/projects/[slug]/page": "app/projects/[slug]/page.js",
-  "/projects/page": "app/projects/page.js",
-  "/process/page": "app/process/page.js",
-  "/sitemap.xml/route": "app/sitemap.xml/route.js",
   "/learning/[slug]/page": "app/learning/[slug]/page.js"
 }
