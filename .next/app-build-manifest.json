@@ -19,17 +19,8 @@
     "/learning/[slug]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/css-node_modules_pnpm_next_14_2_0-canary_62_react-dom_18_2_0_react_18_2_0__react_18_2_0_node_-812433.css",
       "static/chunks/app/learning/[slug]/page.js"
-    ],
-    "/learning/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/learning/page.js"
-    ],
-    "/process/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/process/page.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",

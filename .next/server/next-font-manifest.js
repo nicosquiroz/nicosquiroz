@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{},\"appUsingSizeAdjust\":false,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/nico/progr/web/app/learning/[slug]/page\":[\"static/media/463cef7d4672ba68-s.p.woff2\",\"static/media/3478b6abef19b3b3-s.p.woff2\",\"static/media/684e5662d94c69e1-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"

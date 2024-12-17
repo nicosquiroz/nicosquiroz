@@ -7,6 +7,12 @@ import { MDXRemote } from 'next-mdx-remote/rsc'
 import { highlight } from 'sugar-high'
 import React from 'react'
 import { HoverVideo } from './hovervideo'
+import { IBM_Plex_Mono } from 'next/font/google'
+
+export const ibmPlexMono = IBM_Plex_Mono({
+  weight: ['300', '400', '500'],
+  subsets: ['latin'],
+})
 
 function Table({ data }) {
   let headers = data.headers.map((header, index) => (
@@ -103,7 +109,10 @@ let components = {
   Table,
   InlineMath,
   BlockMath,
-  HoverVideo
+  HoverVideo,
+  MonoText: (props) => (
+    <p {...props} style={{ fontFamily: ibmPlexMono.style.fontFamily }} />
+  ),
 }
 
 export function CustomMDX(props) {

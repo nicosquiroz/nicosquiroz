@@ -9,7 +9,8 @@ export default function Page() {
   return (
     <section>
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter dark:text-neutral-800">
-        My Blog
+        Link a innertwist (mvp)
+        Obra!
       </h1>
       <BlogPosts />
     </section>
