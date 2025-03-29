@@ -3,6 +3,7 @@
   background-color: #47a3f3;
   color: #fefefe;
 }
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap');
 
 :root {
   --sh-class: #2d5e9d;
@@ -221,4 +222,18 @@ table {
 
 .hover-video-wrapper:hover .hover-video {
   display: block;
+}
+
+/* Add your global animations */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.rotating-image {
+  animation: rotate 30s linear infinite;
 }
