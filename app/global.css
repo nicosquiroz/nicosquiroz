@@ -233,7 +233,19 @@ table {
     transform: rotate(-360deg);
   }
 }
+@keyframes rotate-anti {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 .rotating-image {
   animation: rotate 30s linear infinite;
+}
+
+.rotating-image-2 {
+  animation: rotate-anti 30s linear infinite;
 }
