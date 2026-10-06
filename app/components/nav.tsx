@@ -4,19 +4,6 @@ const navItems = {
   '/': {
     name: 'index',
   },
-  '/process': {
-    name: 'process',
-  },
-  '/learning': {
-    name: 'learning',
-  },
-  '/projects': {
-    name: 'projects',
-  }
-  // ,
-  // 'hhi': {
-  //   name: 'deploy',
-  // },
 }
 
 export function Navbar() {

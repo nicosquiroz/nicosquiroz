@@ -1,5 +1,3 @@
-import { BlogPosts } from 'app/components/posts'
-
 export default function Page() {
   return (
     <section>
@@ -7,29 +5,19 @@ export default function Page() {
         nicosquiroz
       </h4>
       <p className="mb-4 text-sm dark:text-neutral-800">
-        I am a developer with a background in physics and data science. I have contributed to{' '}
+        I am a developer with a background in physics. I'm working in the intersection of AI, product and business. Also exploring
+        my research interests in cognitive science and brain-inspired models while building <a href="https://appliednewworlds.com" className="underline hover:text-neutral-600">
+        Applied New Worlds
+        </a>{' '}. I have previously contributed to philosophy of physics{' '}
         <a href="https://philpapers.org/rec/MALTHP" className="underline hover:text-neutral-600">
-          physics research
-        </a>{' '}
-        and now I explore the intersection of computational methods and cognitive science, focusing on machine learning applications in technology and business innovation.      </p>
-      <p className="mb-4 text-sm dark:text-neutral-800">
-        On this website you can find notes and thoughts connecting ideas about{' '}
-        <a href="/learning" className="underline hover:text-neutral-600">
-          what I'm learning
-        </a>
-        ,{' '}
-        <a href="/agency" className="underline hover:text-neutral-600">
-          where I'm going
-        </a>
-        , and the{' '}
-        <a href="http://innertwist.com/" className="underline hover:text-neutral-600">
-          projects
-        </a>
-        {' '} I'm working on.
-      </p>
-      <div className="my-8 text-sm dark:text-neutral-800">
-        <BlogPosts />
-      </div>
+        research
+        </a>{' '}.
+        </p>
+        {/* and now I explore the intersection of computational methods and cognitive science, focusing on machine learning applications in technology and business innovation.      </p> */}
+        <p className="mb-4 text-sm dark:text-neutral-800">
+        I work with selected teams on short, focused engagements to help them clarify complex systems involving software, design and AI.
+This work is exploratory, strategic and grounded in real constraints. It also informs my long-term research at Applied New Worlds.
+        </p>
     </section>
   )
 }
